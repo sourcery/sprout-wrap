@@ -41,6 +41,7 @@ node_attributes:
   sprout:
     git:
       domain: sourcery.com
+      workspace_directory: Development
       authors:
         - initials: gw
           name: Greg Woodward
