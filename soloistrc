@@ -39,6 +39,9 @@ recipes:
 
 node_attributes:
   sprout:
+    rbenv:
+      default_ruby: 2.1.2
+      rubies: {2.1.2: {}}
     git:
       domain: sourcery.com
       workspace_directory: Development
