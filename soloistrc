@@ -36,6 +36,7 @@ recipes:
 - sprout-osx-apps::textmate_bundles
 - sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::macvim
+- sprout-osx-apps::sublime_text
 - sprout-rubymine
 
 node_attributes:
@@ -127,7 +128,7 @@ node_attributes:
       orientation: 'bottom'
       auto_hide: true
       # clear_apps: true
-      tile_size: 35
+      tile_size: 50
       magnification: false
     homebrew:
       formulae:
