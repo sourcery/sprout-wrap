@@ -118,8 +118,16 @@ GIT
       osx (>= 0.0.0)
       sprout-base (>= 0.0.0)
 
+PATH
+  remote: site-cookbooks/sourcery-osx-apps
+  specs:
+    sourcery-osx-apps (0.1.1)
+      sprout-osx-apps (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
 DEPENDENCIES
   osx (>= 0)
+  sourcery-osx-apps (>= 0)
   sprout-base (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
