@@ -87,10 +87,34 @@ node_attributes:
         - initials: james
           name: James Teow
           shortname: james
-      projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+#      projects:
+#        -
+#          name: sourcery
+#          url: git@github.com/sourcery/sourcery.git
+#        -
+#          name: admin
+#          url: git@github.com/sourcery/admin.git
+#        -
+#          name: payments
+#          url: git@github.com/sourcery/payments.git
+#        -
+#          name: core
+#          url: git@github.com/sourcery/core.git
+#        -
+#          name: directory-core
+#          url: git@github.com/sourcery/directory-core.git
+#        -
+#          name: directory-admin
+#          url: git@github.com/sourcery/directory-admin.git
+#        -
+#          name: directory-doc
+#          url: git@github.com/sourcery/directory-doc.git
+#        -
+#          name: api
+#          url: git@github.com/sourcery/api.git
+#        -
+#          name: getsourcery
+#          url: git@github.com/sourcery/getsourcery.git
     terminal:
       default_profile: 'Pro'
     settings:
