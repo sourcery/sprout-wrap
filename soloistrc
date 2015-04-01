@@ -120,9 +120,9 @@ node_attributes:
     settings:
       clock_format: EEE MMM d  h:mm a
     dock_preferences:
-      orientation: 'left'
+      orientation: 'bottom'
       auto_hide: true
-      clear_apps: true
+      # clear_apps: true
       tile_size: 35
       magnification: false
     homebrew:
