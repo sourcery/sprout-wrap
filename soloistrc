@@ -27,10 +27,11 @@ recipes:
 - sprout-postgresql
 
 # apps
-- sprout-osx-apps::iterm2
 - sprout-osx-apps::flycut
 - sprout-osx-apps::shiftit
+
 - sourcery-osx-apps::utc_clock
+- sourcery-osx-apps::iterm2
 
 # apps (editors)
 - sprout-osx-apps::textmate_bundles
