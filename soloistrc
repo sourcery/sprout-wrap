@@ -40,19 +40,52 @@ recipes:
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
+      domain: sourcery.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: gw
+          name: Greg Woodward
+          shortname: greg
+        - initials: greg
+          name: Greg Woodward
+        - initials: nc
+          name: Nick Chaffee
+          shortname: nick
+        - initials: nick
+          name: Nick Chaffee
+        - initials: ben
+          name: Ben Bergstein
+        - initials: bb
+          name: Ben Bergstein
+          shortname: ben
+        - initials: jeff
+          name: Jeff Rosen
+        - initials: jr
+          name: Jeff Rosen
+          shortname: jeff
+        - initials: pp
+          name: Peretz Partensky
+          shortname: peretz
+        - initials: peretz
+          name: Peretz Partensky
+          shortname: peretz
+        - initials: wl
+          name: Will Limratana
+          shortname: will
+        - initials: will
+          name: Will Limratana
+          shortname: will
+        - initials: kj
+          name: Kenneth Jiang
+          shortname: kenneth
+        - initials: kenneth
+          name: Kenneth Jiang
+          shortname: kenneth
+        - initials: jt
+          name: James Teow
+          shortname: james
+        - initials: james
+          name: James Teow
+          shortname: james
       projects:
         -
           name: sprout-wrap
