@@ -32,6 +32,7 @@ recipes:
 
 - sourcery-osx-apps::utc_clock
 - sourcery-osx-apps::iterm2
+- sourcery-osx-apps::logo
 
 # apps (editors)
 - sprout-osx-apps::textmate_bundles
