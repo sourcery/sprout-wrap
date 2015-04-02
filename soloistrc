@@ -146,7 +146,7 @@ node_attributes:
         - heroku-toolbelt
         - imagemagick
         - node
-        # - pstree # Skip until download url is fixed: https://github.com/Homebrew/homebrew/pull/35135
+        - pstree
         - qt
         - rbenv-binstubs
         - rbenv-gem-rehash
