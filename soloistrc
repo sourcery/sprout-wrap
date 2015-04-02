@@ -38,7 +38,7 @@ recipes:
 - sprout-osx-apps::macvim
 - sprout-osx-apps::sublime_text
 
-# Do not install RubyMine via sprout-wrap; just download it so we can better install future updates:
+# Do not install RubyMine via sprout-wrap; just download it and install it manually so we can better install future updates:
 # - sprout-rubymine
 
 node_attributes:
