@@ -30,9 +30,9 @@ recipes:
 - sprout-osx-apps::flycut
 - sprout-osx-apps::shiftit
 
-- sourcery-osx-apps::utc_clock
-- sourcery-osx-apps::iterm2
-- sourcery-osx-apps::logo
+- sourcery-osx::utc_clock
+- sourcery-osx::iterm2
+- sourcery-osx::logo
 
 # apps (editors)
 - sprout-osx-apps::textmate_bundles
