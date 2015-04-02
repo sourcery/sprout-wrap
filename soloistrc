@@ -161,7 +161,6 @@ node_attributes:
         - vagrant
         - virtualbox
         - xquartz
-        - xscope
   bash_it:
     enabled_plugins:
       aliases:
