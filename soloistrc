@@ -25,6 +25,7 @@ recipes:
 - sprout-ruby
 - sprout-mysql
 - sprout-postgresql
+- sprout-redis
 
 # apps
 - sprout-osx-apps::flycut
