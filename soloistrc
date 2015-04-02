@@ -35,8 +35,6 @@ recipes:
 - sourcery-osx::logo
 
 # apps (editors)
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::macvim
 - sprout-osx-apps::sublime_text
 
