@@ -40,6 +40,7 @@ recipes:
 - sprout-osx-apps::sublime_text
 - sprout-osx-apps::ack
 - sprout-osx-apps::heroku_toolbelt
+- sprout-osx-apps::solr
 
 # Do not install RubyMine via sprout-wrap; just download it and install it manually so we can better install future updates:
 # - sprout-rubymine
