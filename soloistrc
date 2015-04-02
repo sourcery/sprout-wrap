@@ -37,6 +37,7 @@ recipes:
 # apps (editors)
 - sprout-osx-apps::macvim
 - sprout-osx-apps::sublime_text
+- sprout-osx-apps::ack
 
 # Do not install RubyMine via sprout-wrap; just download it and install it manually so we can better install future updates:
 # - sprout-rubymine
