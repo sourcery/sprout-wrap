@@ -156,12 +156,14 @@ node_attributes:
         - rbenv-gem-rehash
       casks:
         - ccmenu
+        - cyberduck
         - firefox
         - gitx-rowanj
         - github
         - google-chrome
         - google-drive
         - google-hangouts
+        - libreoffice
         - skype
         - java
         - textmate
