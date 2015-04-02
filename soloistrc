@@ -39,7 +39,9 @@ recipes:
 - sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::macvim
 - sprout-osx-apps::sublime_text
-- sprout-rubymine
+
+# Do not install RubyMine via sprout-wrap; just download it so we can better install future updates:
+# - sprout-rubymine
 
 node_attributes:
   sprout:
@@ -162,3 +164,24 @@ node_attributes:
         - virtualbox
         - xquartz
         - xscope
+  bash_it:
+    enabled_plugins:
+      aliases:
+        - general
+        - bundler
+      completion:
+        - defaults
+        - git
+      plugins:
+        - rbenv
+    custom_plugins:
+      sourcery-osx:
+        - add_usr_local_bin_to_rubylib.bash
+        - sourcery_bash_aliases.bash
+        - ruby_gc_limit.bash
+        - swup.bash
+      sprout-base:
+        - bash_it/custom/disable_ctrl-s_output_control.bash
+        - bash_it/custom/enable_ctrl-o_history_execution.bash
+        - bash_it/custom/ensure_usr_local_bin_first.bash
+        - bash_it/custom/add_user_initials_to_git_prompt_info.bash
