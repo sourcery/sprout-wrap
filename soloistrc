@@ -49,7 +49,7 @@ node_attributes:
       default_ruby: 2.1.2
       rubies: {2.1.2: {}}
     git:
-      domain: sourcery.com
+      domain: getsourcery.com
       workspace_directory: Development
       authors:
         - initials: gw
