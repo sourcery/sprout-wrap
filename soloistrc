@@ -79,12 +79,6 @@ node_attributes:
         - initials: peretz
           name: Peretz Partensky
           shortname: peretz
-        - initials: wl
-          name: Will Limratana
-          shortname: will
-        - initials: will
-          name: Will Limratana
-          shortname: will
         - initials: kj
           name: Kenneth Jiang
           shortname: kenneth
@@ -162,7 +156,6 @@ node_attributes:
         - github
         - gitx-rowanj
         - google-drive
-        - google-chrome
         - google-hangouts
         - java
         - libreoffice
