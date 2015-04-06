@@ -140,6 +140,7 @@ node_attributes:
         - heroku-toolbelt
         - imagemagick
         - node
+        - phantomjs
         - pstree
         - qt
         - rbenv-binstubs
