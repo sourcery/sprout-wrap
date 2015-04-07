@@ -164,6 +164,8 @@ node_attributes:
         - vagrant
         - virtualbox
         - xquartz
+      launchctl:
+        memcached: load
   bash_it:
     enabled_plugins:
       aliases:
