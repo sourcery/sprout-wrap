@@ -1,5 +1,9 @@
 export PATH=./script:./bin:$PATH
 
+alias cdsp="cd ~/Development/payments"
+alias cdsg="cd ~/Development/getsourcery"
+alias cdss="cd ~/Development/sourcery"
+alias cdsa="cd ~/Development/admin"
 alias g=git
 alias gpr="git pull --rebase"
 alias gst="git status"
