@@ -24,7 +24,6 @@ recipes:
 - sprout-rbenv
 - sprout-ruby
 - sprout-postgresql
-- sprout-redis
 
 # apps
 - sourcery-osx::utc_clock
@@ -145,6 +144,7 @@ node_attributes:
         - qt
         - rbenv-binstubs
         - rbenv-gem-rehash
+        - redis
         - ssh-copy-id
         - tmux
         - tree
@@ -166,6 +166,7 @@ node_attributes:
         - xquartz
       launchctl:
         memcached: load
+        redis: load
   bash_it:
     enabled_plugins:
       aliases:
