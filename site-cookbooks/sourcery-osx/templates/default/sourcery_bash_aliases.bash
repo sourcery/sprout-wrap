@@ -1,4 +1,4 @@
-export PATH=./script:./bin:$PATH
+export PATH=./script:./scripts:./bin:$PATH
 
 alias cdsp="cd ~/Development/payments"
 alias cdsg="cd ~/Development/getsourcery"
