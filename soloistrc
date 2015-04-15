@@ -30,6 +30,7 @@ recipes:
 - sourcery-osx::iterm2
 - sourcery-osx::logo
 - sourcery-osx::imagemagick
+- sourcery-osx::phantomjs198
 
 # NOTE: if the sprout-osx-apps recipe only has a homebrew formula or cask, then just include it in the homebrew list
 # below, NOT via a recipe here. E.g., heroku-toolbelt should be down below in the
@@ -139,7 +140,6 @@ node_attributes:
         - graphicsmagick
         - heroku-toolbelt
         - node
-        - phantomjs198
         - pstree
         - qt
         - rbenv-binstubs
