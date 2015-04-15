@@ -139,7 +139,7 @@ node_attributes:
         - graphicsmagick
         - heroku-toolbelt
         - node
-        - phantomjs
+        - phantomjs198
         - pstree
         - qt
         - rbenv-binstubs
