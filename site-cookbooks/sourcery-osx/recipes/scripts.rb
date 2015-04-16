@@ -1,6 +1,6 @@
 require 'pathname'
 
-bin_directory = Pathname("/Users/#{node['sprout']['user']}/bin")
+bin_directory = Pathname("#{node['sprout']['home']}/bin")
 
 directory bin_directory.to_s do
   owner node['sprout']['user']
