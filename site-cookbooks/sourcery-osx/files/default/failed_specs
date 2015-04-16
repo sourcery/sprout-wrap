@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+require 'json'
+
+begin
+  specs = JSON.parse(File.read('tmp/spec_summary.json'))
+rescue JSON::ParserError
+  exit(1)
+end
+
+failed_specs = specs['examples'].select do |example|
+  example['status'] == 'failed'
+end
+
+files_to_run = failed_specs.map do |example|
+  example['file_path']
+end
+
+puts "#{files_to_run.join(' ')}"
