@@ -7,14 +7,12 @@ directory bin_directory.to_s do
   recursive true
 end
 
-cookbook_file(bin_directory.join('run_failed_specs').to_s) do
-  source "run_failed_specs"
-  owner node['sprout']['user']
-  mode 0744
-end
+script_files = Dir.entries(File.join(__dir__, '..', 'files', 'default', 'scripts')).select  {|f| !File.directory? f}
 
-cookbook_file(bin_directory.join('failed_specs').to_s) do
-  source "failed_specs"
-  owner node['sprout']['user']
-  mode 0744
+script_files.each do |script|
+  cookbook_file(bin_directory.join(script).to_s) do
+    source "scripts/#{script}"
+    owner node['sprout']['user']
+    mode 0744
+  end
 end
