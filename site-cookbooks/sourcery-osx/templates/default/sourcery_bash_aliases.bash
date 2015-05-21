@@ -22,3 +22,6 @@ alias fs="foreman start"
 alias be="bundle exec"
 alias plz="foreman run bundle exec"
 alias killrspec="ps aux | grep rspec | grep -v grep | awk '{print $2}' | xargs kill -9"
+
+alias sow="rake db:seed"
+alias reap="rake db:migrate db:test:prepare"
