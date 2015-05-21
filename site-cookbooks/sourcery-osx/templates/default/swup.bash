@@ -11,4 +11,5 @@ function swup {
   git pull
 
   cd $START_DIRECTORY
+  open $HOME/swup-payments.foldercomparison
 }
