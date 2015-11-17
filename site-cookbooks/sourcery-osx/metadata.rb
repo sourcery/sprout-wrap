@@ -5,6 +5,7 @@ description       'Uses pivotal_workstation to configure an OSX workstation for 
 long_description  'Uses pivotal_workstation to configure an OSX workstation for ruby development'
 version           '0.1.1'
 supports          'mac_os_x'
+name		  'sourcery-osx'
 
 depends           'sprout-osx-settings'
 depends           'sprout-osx-apps'
